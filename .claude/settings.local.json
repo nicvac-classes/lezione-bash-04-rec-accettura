@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh api:*)",
+      "Bash(chmod +x setup.sh tracciaA.sh tracciaB.sh tracciaC.sh tracciaD.sh)",
+      "Bash(ls -la *.sh)",
+      "Bash(bash setup.sh)",
+      "Bash(./tracciaA.sh)",
+      "Bash(ls esercizio*.sh)",
+      "Bash(ls /Users/nicvac/tmp/Lezione_Bash04/esercizio*.sh)",
+      "Bash(curl -s https://raw.githubusercontent.com/nicvac-teach/Lezione_Bash03/main/README.md)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//Users/nicvac/tmp/Lezione_Bash04/**)",
+      "Bash(done)",
+      "Bash(bash -n setup.sh)",
+      "Bash(bash tracciaE.sh)"
+    ]
+  }
+}
